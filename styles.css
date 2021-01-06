@@ -1,0 +1,322 @@
+
+:root {
+    --text-active: #FECB52
+    --text-blue: #1B1940
+}
+
+body {
+    overflow-x: hidden;
+}
+
+.text-blue {
+    color: #151431;
+}
+
+nav {
+    text-align: right;
+}
+
+nav > a {
+    text-decoration: none;
+    color: var(--text-blue);
+}
+
+nav a:hover {
+    color: #FFC53A;
+}
+
+nav a img {
+    width: 1.5%;
+}
+
+nav ul {
+    background-color: #151431;
+}
+
+nav ul li {
+    list-style: none;
+    color: white;
+    /* border-bottom: 1px solid #FFC53A */
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: white;
+}
+
+.banner {
+    position: relative;
+}
+
+.banner img {
+    width: 100vw;
+}
+
+.banner .text {
+    position: absolute;
+    bottom: 0;
+    font-size: 2.4em;
+    font-weight: bold;
+    margin-left: 5em;
+}
+
+.about {
+    padding-top: 6em;
+    padding-bottom: 6em;
+}
+
+.about .title {
+    position: relative;
+}
+
+.about h1 {
+    font-size: 3.5em;
+    padding: 1.2em
+}
+
+.about .background {
+    background-color: #F2F2F8;
+    width: 100%;
+    height: 8em;
+    position: absolute;
+    bottom: 0;
+    z-index: -1;
+}
+
+.about .line {
+    background-color: #FFC53A;
+    width: 1%;
+    height: 100%;
+    position: absolute;
+    right: 0;
+    
+}
+
+.about .next img {
+    width: 3em;
+    cursor: pointer;
+}
+
+.core-and-value {
+    background-color:  #151431;
+}
+
+.core-and-value .reputation {
+    color: white;
+}
+.core-and-value .reputation .content .menu {
+    position: relative;
+    cursor: pointer;
+
+}
+.core-and-value .reputation .content .line {
+    background-color: #FFC53A;
+    width: 90%;
+    height: 0.8em;
+}
+.core-and-value .reputation .content .menu .line {
+    background-color: #FFC53A;
+    width: 90%;
+    height: 0.8em;
+}
+
+.core-and-value .reputation .content .menu h6 {
+    padding: 1.2em;
+}
+
+.core-and-value .reputation .content .menu div img {
+    width: 2em;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.core-and-value .values {
+    color: white;
+    position: relative;
+}
+
+.core-and-value .values h4 {
+    font-weight: 900;
+    font-size: 2em;
+}
+
+.core-and-value .values .line {
+    width: 0.8em;
+    height: 10em;
+    background-color: #444257;
+    position: absolute;
+    bottom: 0;
+}
+
+.core-and-value .vision {
+    color:white;
+    position: relative;
+}
+
+.core-and-value .vision .line {
+    width: 0.8em;
+    height: 10em;
+    background-color: #444257;
+    position: absolute;
+    bottom: 0;
+}
+
+.core-and-value .vision h4 {
+    font-weight: 900;
+    font-size: 2em;
+}
+
+.rating {
+    margin: 8em 0;
+}
+.rating .content {
+    position: relative;
+    height: 100%;
+}
+
+.rating .content .line-odd {
+    background-color: #FFC53A;
+    width: 0.5em;
+    height: 10em;
+    position: absolute;
+    top: 0;
+}
+.rating .content .line-even {
+    background-color: #FFC53A;
+    width: 0.5em;
+    height: 10em;
+    position: absolute;
+    bottom: 0;
+}
+
+.rating .content .number {
+    padding: 5em 0;
+}
+
+.rating .number span {
+    font-size: 5em;
+}
+
+.programs img {
+    width: 100%;
+    height: 80%;
+}
+
+.programs .caption {
+    background-color: #FFC53A;
+    margin: 5em 0;
+    padding-top: 3em;
+    padding-bottom: 3em;
+}
+.programs .caption h3 {
+    font-weight: 900;
+}
+
+.careers {
+    padding-top: 6em;
+    padding-bottom: 6em;
+}
+
+.careers .title {
+    position: relative;
+}
+
+.careers h1 {
+    font-size: 3.5em;
+    padding: 1.2em
+}
+
+.careers .background {
+    background-color: #F2F2F8;
+    width: 100%;
+    height: 8em;
+    position: absolute;
+    bottom: 0;
+    z-index: -1;
+}
+
+.careers .line {
+    background-color: #FFC53A;
+    width: 1%;
+    height: 100%;
+    position: absolute;
+    right: 0;
+    
+}
+
+.careers .next img {
+    width: 3em;
+    cursor: pointer;
+}
+
+.ready-to-join {
+    padding-top: 6em;
+    padding-bottom: 6em;
+}
+
+.ready-to-join img {
+    width: 120%;
+    height: 80%;
+}
+
+.ready-to-join .content {
+    background-color: #FFC53A;
+    min-width: 100%;
+    max-height: 100%;
+    margin: 4em 0;
+}
+
+.ready-to-join .content .join {
+    font-size: 2.5em;
+    font-weight: 700;
+    color: #151431;
+}
+
+.ready-to-join .content .app-form {
+    cursor: pointer;
+    color: #444257;
+}
+
+.ready-to-join .content span img {
+    width: 2em;
+}
+
+footer {
+    background-color: #FFC53A;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+footer img {
+    width: 2em;
+    margin: 0.8em 3em;
+    cursor: pointer;
+}
+
+.copyright {
+    background-color: #151431;
+    color: white;
+    display: flex;
+    justify-content: center;
+
+}
+
+@media only screen and (min-width: 1200px) {
+    
+}
+
+@media only screen and (max-width: 760px) {
+    .about h1 {
+        font-size: 2em;
+    }
+
+    .careers h1 {
+        font-size: 2em;
+    }
+
+    nav a img {
+        width: 2em;
+    }
+  }
